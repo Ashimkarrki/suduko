@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main()
-{           int org[5][5];
+{           int org[6][6];
                 for(int i=0;i<6;i++){
                         for(int j=0;j<6;j++){org[i][j]=0;}}
                           int desicion=1;
@@ -19,7 +19,7 @@ int main()
                                 cin>>desicion;
             }
             for(int i=0;i<6;i++){
-                for(int j=0;j<6;j++){cout<<org[j][i]<<" " ;}cout<<""<<endl;;
+                for(int j=0;j<6;j++){cout<<org[i][j]<<" " ;}cout<<""<<endl;;
             }
 
 return 0;
